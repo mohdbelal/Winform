@@ -1,0 +1,14 @@
+winform
+
+#1toggle optio
+
+ private void label1_Click(object sender, EventArgs e)
+        {
+
+            if (lblMessage.Text == "Hello World")
+                lblMessage.Text = "Good moring";
+            else
+                lblMessage.Text = "Hello World";
+
+
+        }
